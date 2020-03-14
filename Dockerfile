@@ -1,4 +1,4 @@
 FROM nurwahid/landing_page
 
-
-COPY . /var/www/html
+WORKDIR /usr/share/nginx/html
+COPY . /usr/share/nginx/html
