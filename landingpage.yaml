@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: landingpage
-        image: nurwahid/landing_page
+        image: nurwahid/landing_page:BUILD_NUMBER
         ports:
         - containerPort: 80
